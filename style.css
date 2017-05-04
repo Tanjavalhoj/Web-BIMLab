@@ -1,0 +1,32 @@
+* {
+    font-family: verdana, sans-serif;
+    color: #665544;
+    padding: 5px;
+    text-align: center;
+}
+#header {
+    background-color: #efefef ;
+    border: 1px solid #665544;
+
+}
+#titelOfNews {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#infoOfNews {
+    line-height: 1.4em;
+}
+#imagehead {
+    float: right;
+    border: 2px solid #665544;
+    padding: 10px;
+}
+#editbutton {
+    text-align: right;
+}
+#editnews {
+
+}
+#savebutton {
+    text-align: right;
+}
