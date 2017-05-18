@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create New News</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="container">
+    <h2>Create News</h2>
+    <a href="ChangeNews.html">
+        <button class="btn btn-success">Go to Change News</button>
+    </a>
+    <br>
+    <br>
+    <form action="Php/Insert.php" method="post" enctype="multipart/form-data">
+        <div>
+            <input id="title" type="text" name="title" placeholder="Title:">
+        </div>
+        <br>
+        <div>
+            <textarea id="paragraph" type="text" name="pararagraph" placeholder="Paragraph:"></textarea>
+        </div>
+        <div>
+            <textarea id="image" type="text" name="image" placeholder="Image:"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Create news" name="submit" onclick="checkLength()">
+        </div>
+    </form>
+</div>
+
+<script src="Javascript/Get_News.js"></script>
+</body>
+</html>

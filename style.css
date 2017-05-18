@@ -4,7 +4,7 @@
     padding: 5px;
     text-align: center;
 }
-#header {
+#header, #createnews {
     background-color: #efefef ;
     border: 1px solid #665544;
 
@@ -27,6 +27,6 @@
 #editnews {
 
 }
-#savebutton {
+#backbutton, #newsSideButton {
     text-align: right;
 }

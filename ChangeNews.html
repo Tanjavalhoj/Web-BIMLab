@@ -11,22 +11,55 @@
 </head>
 <body>
 
-<div id="header">
-    <h1>BIM Lab</h1>
-</div>
+<div class="col-md-offset-1">
 
-<div id="editnews">
-    <table>
-        <tr>
-            <th id="news">The News</th>
-            <td id="">The info of the news</td>
-        </tr>
-    </table>
-</div>
+    <div id="createnews">
+        <h3>Create News</h3>
+        <br>
+        <a href="CreateNews.html" id="backbutton">
+            <button>Create</button>
+        </a>
+    </div>
 
-<div id="savebutton">
-    <button>Save Changes</button>
-</div>
+    <br>
+    <br>
+
+    <div id="table-container" class="col-md-10">
+        <h2>Active News</h2>
+        <table class="table table-hover" id="activeNews">
+            <thead>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Update</th>
+            <th>Delete</th>
+            </thead>
+            <tbody id="NewsActive">
+
+            </tbody>
+        </table>
+
+        <br>
+        <br>
+
+        <h2>News List</h2>
+        <table class="table table-hover" id="newsList">
+            <thead>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Update</th>
+            <th>Delete</th>
+            <th>Primary</th>
+            </thead>
+            <tbody id="news">
+
+            </tbody>
+        </table>
+
+
+        <div id="newsSideButton">
+            <a href="NewsSide.html"><button>Go to News Page</button></a>
+        </div>
+    </div>
 
 
 
